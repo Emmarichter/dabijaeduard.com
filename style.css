@@ -31,7 +31,7 @@ img{
 }
 p{
     color:black;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 5px;
     line-height:2.5rem;
     font-weight: 300;
@@ -476,7 +476,7 @@ nav{
 }
 /* End  key framse */
 /* media query for tablet */
-@media only scrren and (min-width:424px){
+@media only scrren and (min-width:388px){
 .cta {
     font-size: 1rem;
     padding: 10px 20px;
@@ -538,18 +538,20 @@ h1.section-title{
 }
 #contact .contact-item {
     margin: 20px;
-    flex-direction: row;
+    flex-direction: column;
 }
 #contact .contact-item .icon{
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 30px;
+    
 }  
 #contact .contact-item .icon img{
     object-fit: contain;
+    
 } 
 #contact .contact-item .contact-info{
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
 }
 
